@@ -1,0 +1,165 @@
+/* cuerpo con fuentes solicitadas*/
+body {
+    font-family: "Raleway", "Open Sans";
+    color: white;
+    background-color: black;
+}
+
+#logo {
+    height: 80px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: transparent !important;
+    color: white;
+}
+
+/* smooth scroll */
+.bg-interno {
+    background-color: #3abed3;
+    transition: all 2s ease;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-family: "Raleway";
+    font-size: 2.5em;
+}
+
+.container_header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-item {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container_h1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hr_linea {
+    background-color: #3abed3;
+    height: 0.2em;
+}
+
+.card0 {
+    background-color: black;
+}
+
+.card-body01 {
+    background-color: #3abed3;
+    padding: 0;
+}
+
+.fa-iconos {
+    font-size: 2em;
+    color: #fff;
+}
+
+.card-body02 {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.card-body00 {
+    background-color: white;
+    margin-top: 1.5em;
+}
+
+.card-body03 {
+    background-color: #16a2b7;
+    color: white;
+    text-align: left;
+    height: 17em;
+    padding: 0.5em;
+}
+
+.card-imagen {
+    height: 140px;
+}
+
+/* footer */
+.page-footer {
+    background-color: #3abed3;
+}
+
+footer {
+    color: white;
+    font-weight: bold;
+    background-color: #3abed3;
+    font-family: "Raleway";
+    font-size: 1.5em;
+    position: absolute;
+    width: 100%;
+    padding: 2px;
+}
+
+/* Botones de redes sociales */
+.btn {
+    width: 50px;
+    color: #3abed3;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+}
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #ff8000;
+}
